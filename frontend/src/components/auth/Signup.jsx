@@ -5,6 +5,7 @@ import { PageHeader } from "@primer/react/drafts";
 import { Box, Button, Link } from "@primer/react";
 import "./auth.css";
 import logo from "../../assets/github-mark-white.svg";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   const [email, setEmail] = useState("");
